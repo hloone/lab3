@@ -10,21 +10,21 @@ stages {
    stage('Build') {
        steps {
         // Example build step, replace with your build commands
-          echo 'Building...'
+          echo 'Building... lab3'
           // sh 'make' // Uncomment and replace with your build command
         	}
     	} 
     stage('Test') {
        steps {
           // Example test step, replace with your test commands
-           echo 'Testing...'
+           echo 'Testing... lab3'
            // sh 'make test' // Uncomment and replace with your test command
         	}
     	}
 stage('Deploy') {
       steps {
   // Example deploy step, replace with your deploy commands
-  echo 'Deploying...'
+  echo 'Deploying... lab3'
   // sh 'make deploy' // Uncomment and replace with your deploy command
         	}
     	}
@@ -32,7 +32,7 @@ stage('Deploy') {
 
 	post {
     	success {
-        	echo 'Pipeline completed successfully!'
+        	echo 'lab3 Pipeline completed successfully!'
     	}
     	failure {
         	echo 'Pipeline failed!'
